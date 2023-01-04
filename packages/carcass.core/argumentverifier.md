@@ -6,7 +6,7 @@
 public static void NotNull<T>(
     T? argument,
     string argumentName,
-    bool skipStringWhiteSpace = false
+    bool skipStringWhiteSpace = default
 ) where T : class
 ```
 
