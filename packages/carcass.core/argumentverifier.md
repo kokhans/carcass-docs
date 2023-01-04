@@ -4,6 +4,8 @@
 
 ## NotNull
 
+Check if the given value is not null or whitespace.
+
 ```csharp
 public static void NotNull<T>(
     T? argument,
@@ -12,20 +14,18 @@ public static void NotNull<T>(
 ) where T : class
 ```
 
-Check if the given value is not null or whitespace.
-
 ## NotDefault
+
+Check if the given value is not default.&#x20;
 
 ```csharp
 public static void NotDefault<T>(T argument, string argumentName) where T : struct
 ```
 
-Check if the given value is not default.&#x20;
-
 ## NotDefault
+
+Check if the given value is not read-only.
 
 ```csharp
 public static void NotReadOnly<T>(ICollection<T> argument, string argumentName)
 ```
-
-Check if the given value is not read-only.
