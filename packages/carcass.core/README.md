@@ -9,13 +9,13 @@ Core abstractions, interfaces, and types used by Carcass.\* libraries.
 
 ## Installation
 
-To install Carcass.Core and its dependencies via .NET Core CLI, execute the following command.
+To install `Carcass.Core` and its dependencies via .NET Core CLI, execute the following command.
 
 ```powershell
 dotnet add package Carcass.Core
 ```
 
-To install Carcass.Core and its dependencies via NuGet, execute the following command.
+To install `Carcass.Core` and its dependencies via NuGet, execute the following command.
 
 ```powershell
 Install-Package Carcass.Core

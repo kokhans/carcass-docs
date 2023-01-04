@@ -29,3 +29,12 @@ Check if the given value is not read-only.
 ```csharp
 public static void NotReadOnly<T>(ICollection<T> argument, string argumentName)
 ```
+
+## Requires
+
+Check if the given expression is valid.
+
+```csharp
+public static void Requires(bool expression, string message)
+public static void Requires(Func<bool> expression, string message)
+```
