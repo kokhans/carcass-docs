@@ -1,6 +1,8 @@
-# ArgumentVerifier
+---
+description: Provides a declarative way of validating method arguments.
+---
 
-`ArgumentVerifier` provides a declarative way of validating method arguments.
+# ArgumentVerifier
 
 ## NotNull
 
