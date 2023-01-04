@@ -1,6 +1,8 @@
-# Carcass.Core
+---
+description: Core abstractions, interfaces, and types used by Carcass.* libraries.
+---
 
-Core abstractions, interfaces, and types used by Carcass.\* libraries.
+# Carcass.Core
 
 ## Prerequisites
 
