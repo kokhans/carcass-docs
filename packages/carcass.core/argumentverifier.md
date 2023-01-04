@@ -1,5 +1,7 @@
 # ArgumentVerifier
 
+`ArgumentVerifier` provides a declarative way of validating method arguments.
+
 ## NotNull
 
 ```csharp
