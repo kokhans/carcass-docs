@@ -4,4 +4,5 @@
 
 ## Packages
 
-* [Carcass.Core](packages/carcass.core.md)
+* [Carcass.Core](packages/carcass.core/README.md)
+  * [ArgumentVerifier](packages/carcass.core/argumentverifier.md)
