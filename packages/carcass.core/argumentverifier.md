@@ -4,7 +4,15 @@ description: Provides a declarative way of validating method arguments.
 
 # ArgumentVerifier
 
-## NotNull
+## Namespace
+
+```
+Carcass.Core
+```
+
+## Methods
+
+### NotNull
 
 Check if the given value is not null or whitespace.
 
@@ -16,7 +24,7 @@ public static void NotNull<T>(
 ) where T : class
 ```
 
-## NotDefault
+### NotDefault
 
 Check if the given value is not default.&#x20;
 
@@ -24,7 +32,7 @@ Check if the given value is not default.&#x20;
 public static void NotDefault<T>(T argument, string argumentName) where T : struct
 ```
 
-## NotDefault
+### NotDefault
 
 Check if the given value is not read-only.
 
@@ -32,7 +40,7 @@ Check if the given value is not read-only.
 public static void NotReadOnly<T>(ICollection<T> argument, string argumentName)
 ```
 
-## Requires
+### Requires
 
 Check if the given expression is valid.
 

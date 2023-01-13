@@ -6,11 +6,15 @@ description: Provides a mechanism to release managed/unmanaged resources.
 
 To release managed/unmanaged resources in your application, you should inherit the `Disposable` abstract class and override methods related to the specific disposing resource type.
 
-```csharp
-public abstract class Disposable : IDisposable
+## Namespace
+
+```
+Carcass.Core
 ```
 
-## DisposeManagedResources
+## Methods
+
+### DisposeManagedResources
 
 Dispose of managed resources.
 
@@ -18,7 +22,7 @@ Dispose of managed resources.
 protected virtual void DisposeManagedResources()
 ```
 
-## DisposeUnmanagedResources
+### DisposeUnmanagedResources
 
 Dispose of unmanaged resources.
 

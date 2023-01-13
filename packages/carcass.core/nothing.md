@@ -4,7 +4,15 @@ description: Represents an object with no referenced value.
 
 # Nothing
 
-## None
+## Namespace
+
+```
+Carcass.Core
+```
+
+## Properties
+
+### None
 
 Return no referenced value.
 
