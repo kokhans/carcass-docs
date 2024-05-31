@@ -9,6 +9,7 @@
   * [Disposable](packages/carcass.core/disposable.md)
   * [Nothing](packages/carcass.core/nothing.md)
   * [Result](packages/carcass.core/result.md)
+  * [ResultExecutor](packages/carcass.core/resultexecutor.md)
 * [Carcass.Data.Core](packages/carcass.data.core/README.md)
   * [Commands](packages/carcass.data.core/commands/README.md)
     * [ICommand](packages/carcass.data.core/commands/icommand.md)
