@@ -6,7 +6,7 @@ description: Core abstractions, interfaces, and types used by Carcass.* librarie
 
 ## Prerequisites
 
-* [.NET 7 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+* [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 * [Visual Studio 2022](https://visualstudio.microsoft.com/vs/)
 
 ## Installation
