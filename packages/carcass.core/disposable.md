@@ -14,7 +14,7 @@ Carcass.Core
 
 ## Methods
 
-### DisposeManagedResources
+### **`DisposeManagedResources`**
 
 Dispose of managed resources.
 
@@ -22,7 +22,7 @@ Dispose of managed resources.
 protected virtual void DisposeManagedResources()
 ```
 
-### DisposeUnmanagedResources
+### **`DisposeUnmanagedResources`**
 
 Dispose of unmanaged resources.
 

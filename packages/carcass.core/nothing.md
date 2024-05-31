@@ -12,7 +12,7 @@ Carcass.Core
 
 ## Properties
 
-### None
+### **`None`**
 
 Return no referenced value.
 
