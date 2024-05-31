@@ -10,6 +10,8 @@ description: Provides high-performance logging mechanism over Microsoft.Extensio
 
 ## Methods
 
+Each method logs a message with a format string and a varying number of arguments. The format string can contain placeholders (like `{0}`, `{1}`, etc.) that will be replaced by the arguments when the message is logged.
+
 ### **`LogTrace`**
 
 Log a trace message.
