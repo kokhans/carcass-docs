@@ -8,9 +8,7 @@ To release managed/unmanaged resources in your application, you should inherit t
 
 ## Namespace
 
-```
-Carcass.Core
-```
+`Carcass.Core`
 
 ## Methods
 

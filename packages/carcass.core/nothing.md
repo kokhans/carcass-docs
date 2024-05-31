@@ -6,9 +6,7 @@ description: Represents an object with no referenced value.
 
 ## Namespace
 
-```
-Carcass.Core
-```
+`Carcass.Core`
 
 ## Properties
 

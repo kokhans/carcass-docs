@@ -4,9 +4,7 @@ Acts as a mediator for executing operations and handling their results.
 
 ## Namespace
 
-```
-Carcass.Core
-```
+`Carcass.Core`
 
 ## Methods
 

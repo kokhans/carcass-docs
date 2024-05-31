@@ -4,9 +4,7 @@ Represents the outcome of an operation, with a success status and optional data.
 
 ## Namespace
 
-```
-Carcass.Core
-```
+`Carcass.Core`
 
 ## Properties
 

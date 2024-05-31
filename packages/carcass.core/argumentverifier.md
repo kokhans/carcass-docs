@@ -6,7 +6,7 @@ description: Provides a declarative way of validating method arguments.
 
 ## Namespace
 
-Carcass.Core
+`Carcass.Core`
 
 ## Methods
 
