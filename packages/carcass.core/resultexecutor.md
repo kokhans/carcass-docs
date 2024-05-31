@@ -1,6 +1,8 @@
-# ResultExecutor
+---
+description: Acts as a mediator for executing operations and handling their results.
+---
 
-Acts as a mediator for executing operations and handling their results.
+# ResultExecutor
 
 ## Namespace
 

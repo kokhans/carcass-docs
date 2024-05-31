@@ -10,6 +10,7 @@
   * [Nothing](packages/carcass.core/nothing.md)
   * [Result](packages/carcass.core/result.md)
   * [ResultExecutor](packages/carcass.core/resultexecutor.md)
+  * [ShortCode](packages/carcass.core/shortcode.md)
 * [Carcass.Data.Core](packages/carcass.data.core/README.md)
   * [Commands](packages/carcass.data.core/commands/README.md)
     * [ICommand](packages/carcass.data.core/commands/icommand.md)

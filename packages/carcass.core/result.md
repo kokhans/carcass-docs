@@ -1,6 +1,10 @@
-# Result
+---
+description: >-
+  Represents the outcome of an operation, with a success status and optional
+  data.
+---
 
-Represents the outcome of an operation, with a success status and optional data.
+# Result
 
 ## Namespace
 
