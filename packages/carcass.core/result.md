@@ -8,12 +8,44 @@ Represents the outcome of an operation, with a success status and optional data.
 
 ## Properties
 
-### **`FailureData`**
+### **`Payload`**
 
-Holds data related to the failure of an operation, if applicable.
+The result of the operation if it was successful.
 
 ```csharp
-public TFailure FailureData { get; }
+public T? Payload { get; private set; }
+```
+
+### **`FailureReason`**
+
+A string explaining why the operation failed.
+
+```csharp
+public string? FailureReason { get; private set; }
+```
+
+### **`FailureException`**
+
+An exception that was thrown during the operation.
+
+```csharp
+public Exception? FailureException { get; private set; }
+```
+
+### **`FailureData`**
+
+Additional data about the failure.
+
+```csharp
+public KeyValuePair<Type, object>? FailureData { get; private set; }
+```
+
+### **`IsSuccess`**
+
+A boolean indicating whether the operation was successful.
+
+```csharp
+public bool IsSuccess { get; }
 ```
 
 ## Methods
@@ -23,29 +55,18 @@ public TFailure FailureData { get; }
 Creates a failed result with the given failure data.
 
 ```csharp
-public static Result<TSuccess, TFailure> Fail(TFailure failureData)
+public static Result<T> Fail(
+        Exception? failureException = default,
+        string? failureReason = default,
+        Type? failureType = default,
+        object? failureData = default
+    )
 ```
 
-### **`Succeed`**
+### **`Success`**
 
 Creates a successful result with the given success data.
 
 ```csharp
-public static Result<TSuccess, TFailure> Succeed(TSuccess successData)
-```
-
-### **`IsFailure`**
-
-Indicates whether the result represents a failure.
-
-```csharp
-public bool IsFailure { get; }
-```
-
-### **`IsSuccess`**
-
-Indicates whether the result represents a success.
-
-```csharp
-public bool IsSuccess { get; }
+public static Result<T> Success(T? payload)
 ```
